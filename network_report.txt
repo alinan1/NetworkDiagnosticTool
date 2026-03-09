@@ -1,0 +1,12 @@
+NETWORK DIAGNOSTIC REPORT
+==================================================
+Hostname: Alinas-MacBook-Air.local
+Local IP Address: 192.168.0.166
+Default Gateway: 192.168.0.1
+Ping Test: Ping successful: 19.833 ms
+Web Test: Web access successful
+DNS Resolution Successful: google.com -> 142.250.65.238
+Target Host: google.com
+Resolved Target IP: 142.250.65.238
+Open Common Ports: 80, 443
+Diagnosis: Network appears fully operational.
