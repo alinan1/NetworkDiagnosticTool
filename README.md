@@ -37,30 +37,6 @@ The tool performs multiple connectivity tests to determine the health of the net
 
 ---
 
-### Port Scanning
-
-The tool includes a basic TCP port scanner that checks a set of common ports on a target host.
-
-Default ports scanned include:
-
-- 20 / 21 – FTP  
-- 22 – SSH  
-- 23 – Telnet  
-- 25 – SMTP  
-- 53 – DNS  
-- 80 – HTTP  
-- 110 – POP3  
-- 123 – NTP  
-- 143 – IMAP  
-- 443 – HTTPS  
-- 445 – SMB  
-- 3389 – RDP  
-- 8080 – HTTP Alternative  
-
-The scanner attempts to establish a TCP connection and records any ports that accept connections.
-
----
-
 ## Network Diagnosis
 
 After all tests are completed, the tool analyzes the results and provides a simple diagnosis of the network state.
@@ -131,27 +107,6 @@ No external dependencies are required since the program uses Python's standard l
 
 ---
 
-## Usage
-
-Run the program from the command line:
-
-python network_diagnostic_tool.py
-
-The program will:
-
-1. Display system network information  
-2. Run connectivity tests  
-3. Perform DNS resolution  
-4. Ask for a host to scan  
-5. Scan common ports on the target host  
-6. Provide a diagnosis  
-7. Generate a report file  
-
-Example prompt:
-
-Enter a host to scan common ports on (example: google.com)
-
----
 
 ## Example Output
 
@@ -193,8 +148,3 @@ This project demonstrates several important networking and programming concepts:
 - Network troubleshooting logic
 - File report generation
 
----
-
-## Disclaimer
-
-This tool performs basic port scanning for educational purposes only. Only scan systems you own or have permission to test.
